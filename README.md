@@ -10,8 +10,7 @@ target_link_libraries( DisplayImage ${OpenCV_LIBS} )
 * argc : 输入参数个数  
 * argv 可执行文件路径  
   
-该例中 ./DisplayImage image  
-  
+该例中 ./DisplayImage image  
 argc = 2;  
 arcv[0] = DisplayImage;   
 argv[1] = 图像路径
